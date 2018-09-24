@@ -6,7 +6,7 @@
 /*   By: seli <seli@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/23 13:59:57 by seli              #+#    #+#             */
-/*   Updated: 2018/09/23 17:19:22 by seli             ###   ########.fr       */
+/*   Updated: 2018/09/23 23:30:57 by seli             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ void	sastantua(int size)
 
 int		ds(int h, int d, int tier, int size)
 {
-	if(tier == size && d >= 5 && h * 2 == d + 1)
+	if (tier == size && d >= 5 && h * 2 == d + 1)
 		return (2);
 	else
 		return (tier == size && h <= d);
